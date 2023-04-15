@@ -1,5 +1,5 @@
 # TAA_Bayesian
-The project is system, for Medium-Long Term Trading for Tactical Asset Allocation using Bayesian Network Models
+The project is a system, for Medium-Long Term Trading for Tactical Asset Allocation using Bayesian Network Models
 A key factor in any optimum portfolio is its “Strategic Asset Allocation”. It has been shown that strategic asset allocation is the greatest contributor to portfolio performance. However, there are times when an asset class, or a market sector experiences an elevated risk, or enters a regime change that is detrimental to the portfolio performance in the medium term. Hence ‘Tactical Asset Allocation’ is a powerful method to take advantage of adverse risks and steer the strategic asset allocation accordingly and generate alpha.
 
 The problem remains how to generate timely and actionable information and re-allocate the assets among the asset classes in a realistic trading strategy. The portfolio should not be rebalanced among its asset classes too frequently as it drives up the costs of due to increased trading into its constituent assets and securities. On the other hand, the trading signals should be automated and generate a medium-term outlook for an asset class. 
