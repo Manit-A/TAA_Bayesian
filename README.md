@@ -7,23 +7,21 @@ This project will create an automated trading system to generate signals at fixe
 
 We define our Asset Classes as:
 
-Developed Market Equities in US S&P500: "^SPY" 
+a) Developed Market Equities in US S&P500: "^SPY" 
 
-Equities in Other Developed UK FTSE: " ISF.L" 
+b) Equities in Other Developed UK FTSE: " ISF.L" 
 
-Alternative Investments Real Estate Investment Trusts (REIT): " ESS" 
+c) Alternative Investments Real Estate Investment Trusts (REIT): " ESS" 
 
-Commodities -Gold , "AAAU"
+d) Commodities-Gold: Goldman Sachs Gold ETF "AAAU"
 
-Emerging Market Equities as repreented by MSCI Emerging Markets ETS iShares ("EEM") 
+e) Emerging Market Equities as repreented by MSCI Emerging Markets ETS iShares ("EEM") 
 
-Currency Markets as represented by Invesco Euro Currency ETF "FXE"
+f) Currency Markets as represented by Invesco Euro Currency ETF "FXE"
 
 Fixed Income (HY Corporate Bonds): "BoFA"
 
-We first build a SAA combination of these asset classes using data from Yahoo Finance and Fred using Start Date: 2020-01-01,End Date: 2022-01-01
-
-Assets = ['AAAU', 'SPY', 'ISF.L', 'ESS', 'EEM', 'FXE']
+We first build a SAA combination of these asset classes using data from Yahoo Finance and Fred using Start Date: 2020-01-01 and End Date: 2022-01-01
 
 We build a policy mix or Strategic Asset Allocation.
 
