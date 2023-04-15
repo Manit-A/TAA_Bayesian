@@ -1,0 +1,17 @@
+The system requires following sofware and libraries. 
+python. Version 3.11 64bit
+
+# Python Libraries
+numpy. Version 1.24.2
+pandas. Version 1.5.3
+scipy. Version 1.10.1
+statsmodels. Version 0.13.5
+yfinance. Version 0.2.14
+cvxpy. Version 1.3.1
+pgmpy. Version 0.1.21
+
+# Install using pip install numpy pandas scipy cvxpy statsmodels yfinance pgmpy
+# Import standard Python libraries, datetime, math, random, time
+
+# The system is built on Jupyter Notebooks
+# Install using pip install jupyter
