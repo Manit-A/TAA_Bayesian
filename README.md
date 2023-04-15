@@ -19,7 +19,7 @@ e) Emerging Market Equities as repreented by MSCI Emerging Markets ETS iShares (
 
 f) Currency Markets as represented by Invesco Euro Currency ETF "FXE"
 
-Fixed Income (HY Corporate Bonds): "BoFA"
+g) Fixed Income (HY Corporate Bonds): "BoFA"
 
 We first build a SAA combination of these asset classes using data from Yahoo Finance and Fred using Start Date: 2020-01-01 and End Date: 2022-01-01
 
