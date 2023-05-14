@@ -49,13 +49,13 @@ We have implemented a Bayesian model to forecast the price of physical Gold GOLD
 The combined data frame was appended by an observed price of Gold for each of the following month and the data sample was partitioned into a training set using data from years prior to 2021, a validation set for the data from year 2021 and a testing set with data from the year 2022. This is referred to as DiscreteF_DF
 
 Usage Guidelines
-# Download BayesianK2.pkl and store it in a Path on a Local Drive at 'C:/MScFE/Capstone/Models/'
-# Download TAA_System.ipynb. This is the TAA System
-# Fix a Startegic Asset Allocation (SAA) and a Tactical Asset Allocation (TAA) for your portfolio [Should have Gold as an Asset Class]
-# TAA should have a higher proportion in Gold Asset Class as compared to SAA. SAA may be defined based on the risk profile of the investor.
-# Run the TAA_System.ipynb
-# Enter the Date in 'YYYY-MM-DD' format, on which we want to generate the Signal. 
-# Condition 1. If the current date > the 1st of a month (not more than 3 days), use that 1st of a month as End Date (Recommended)
-# Act: In this condition, if the Forecast Signal is 1 Rebalance to TAA, else stay with SAA.
-# Condition 2. If current date <  1st of a month (when Signal should be generated). We can use that 1st of that month as End Date
-# Run this system again close to the Date of Signal and Act as per above
+## Download BayesianK2.pkl and store it in a Path on a Local Drive at 'C:/MScFE/Capstone/Models/'
+## Download TAA_System.ipynb. This is the TAA System
+## Fix a Strategic Asset Allocation (SAA) and a Tactical Asset Allocation (TAA) for your portfolio [Should have Gold as an Asset Class]
+## TAA should have a higher proportion in Gold Asset Class as compared to SAA. SAA may be defined based on the risk profile of the investor.
+## Run the TAA_System.ipynb
+## Enter the Date in 'YYYY-MM-DD' format, on which we want to generate the Signal. 
+## Condition 1. If the current date > the 1st of a month (not more than 3 days), use that 1st of a month as End Date (Recommended)
+## Act: In this condition, if the Forecast Signal is 1 Rebalance to TAA, else stay with SAA.
+## Condition 2. If current date <  1st of a month (when Signal should be generated). We can use that 1st of that month as End Date
+## Run this system again close to the Date of Signal and Act as per above
